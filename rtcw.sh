@@ -17,7 +17,7 @@ rp_module_section="exp"
 rp_module_flags=""
 
 function depends_rtcw() {
-    getDepends cmake libsdl2-dev libsdl2-net-dev libsdl2-mixer-dev libsdl2-image-dev libgles1-mesa-dev timidity freepats
+    getDepends cmake libsdl2-dev libsdl2-net-dev libsdl2-mixer-dev libsdl2-image-dev timidity freepats
 }
 
 function sources_rtcw() {
